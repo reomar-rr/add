@@ -21,6 +21,9 @@ from telegram.ext import (
 from telegram.constants import ParseMode
 from telegram.error import TelegramError
 
+from keep_alive import keep_alive
+keep_alive()
+
 # --- إعداد التسجيل والمتغيرات العامة ---
 
 # إعداد التسجيل للمساعدة في تتبع الأخطاء
