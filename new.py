@@ -7,6 +7,8 @@
 import logging
 import json
 import os
+PORT = os.environ.get('PORT', 5000)
+
 import datetime
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import (
