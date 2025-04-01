@@ -2,3 +2,4 @@
 python-telegram-bot
 flask
 aiogram==2.23.1
+pip freeze > requirements.txt
